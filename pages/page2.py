@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.title("Data Visualization")
 
-x = np.linspasce(0, 10, 100)
+x = np.linspace(0, 10, 100)
 y = np.sin(x)
 
 fig, ax = plt.subplots()
